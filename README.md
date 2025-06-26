@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/ec2aea27-f438-4d6c-87ba-ce92009f130b)
 
 # Welcome to the Model Garden for TensorFlow
 

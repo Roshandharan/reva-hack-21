@@ -1,4 +1,6 @@
-![Logo](https://storage.googleapis.com/tf_model_garden/tf_model_garden_logo.png)
+![42043955-fbb838a2-7af7-11e8-9795-7f890e871d13](https://github.com/user-attachments/assets/5b2f166a-5f1a-4880-b3fc-4fd548ea6981)
+![42043955-fbb838a2-7af7-11e8-9795-7f890e871d13](https://github.com/user-attachments/assets/5b2f166a-5f1a-4880-b3fc-4fd548ea6981)
+
 
 # Welcome to the Model Garden for TensorFlow
 

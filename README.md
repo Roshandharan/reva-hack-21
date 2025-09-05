@@ -48,9 +48,3 @@ With the global emphasis on health and safety during pandemics, monitoring mask 
 - **Data Formats:** Images (.jpg, .png), Video (.mp4, .avi)
 
 ---
-
-## Sample 
-
-## Demo
-
-![Face Mask Detection Demo](1.png)

@@ -49,8 +49,8 @@ With the global emphasis on health and safety during pandemics, monitoring mask 
 
 ---
 
-## Usage
+## Sample 
 
-**Run on Images:**  
-```bash
-python detect_mask_image.py --image path/to/image.jpg
+## Demo
+
+![Face Mask Detection Demo](1.png)

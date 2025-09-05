@@ -1,46 +1,56 @@
+# Face Mask Detection Project
 
-# Welcome to the Model Garden for TensorFlow
+**Author:** Roshan Dharan Shashidharan  
+**Status:** Undergraduate Project  
 
-The TensorFlow Model Garden is a repository with a number of different
-implementations of state-of-the-art (SOTA) models and modeling solutions for
-TensorFlow users. We aim to demonstrate the best practices for modeling so that
-TensorFlow users can take full advantage of TensorFlow for their research and
-product development.
+A deep learning-based system for detecting whether people are wearing face masks in images or video streams. This project aims to support public health measures by automatically identifying mask compliance in real-time environments.
 
-To improve the transparency and reproducibility of our models, training logs on
-[TensorBoard.dev](https://tensorboard.dev) are also provided for models to the
-extent possible though not all models are suitable.
+---
 
-| Directory | Description |
-|-----------|-------------|
-| [official](official) | • A collection of example implementations for SOTA models using the latest TensorFlow 2's high-level APIs<br />• Officially maintained, supported, and kept up to date with the latest TensorFlow 2 APIs by TensorFlow<br />• Reasonably optimized for fast performance while still being easy to read |
-| [research](research) | • A collection of research model implementations in TensorFlow 1 or 2 by researchers<br />• Maintained and supported by researchers |
-| [community](community) | • A curated list of the GitHub repositories with machine learning models and implementations powered by TensorFlow 2 |
-| [orbit](orbit) | • A flexible and lightweight library that users can easily use or fork when writing customized training loop code in TensorFlow 2.x. It seamlessly integrates with `tf.distribute` and supports running on different device types (CPU, GPU, and TPU). |
+## Table of Contents
 
-## [Announcements](https://github.com/tensorflow/models/wiki/Announcements)
+- [Introduction](#introduction)  
+- [Features](#features)  
+- [Technology Stack](#technology-stack)  
+- [Usage](#usage)  
+- [Dataset](#dataset)  
+- [Model Architecture](#model-architecture)  
+- [Results](#results)  
+- [Future Work](#future-work)  
+- [References](#references)  
 
-## Contributions
+---
 
-[![help wanted:paper implementation](https://img.shields.io/github/issues/tensorflow/models/help%20wanted%3Apaper%20implementation)](https://github.com/tensorflow/models/labels/help%20wanted%3Apaper%20implementation)
+## Introduction
 
-If you want to contribute, please review the [contribution guidelines](https://github.com/tensorflow/models/wiki/How-to-contribute).
+With the global emphasis on health and safety during pandemics, monitoring mask compliance has become crucial. This project implements a computer vision system using deep learning models to detect whether individuals in images or video streams are wearing face masks.
 
-## License
+---
 
-[Apache License 2.0](LICENSE)
+## Features
 
-## Citing TensorFlow Model Garden
+- Detects face masks in real-time from webcam feed or video files.  
+- Classifies into **Mask** and **No Mask** categories.  
+- Displays bounding boxes around detected faces with corresponding labels.  
+- Can be extended to CCTV or public area monitoring.
 
-If you use TensorFlow Model Garden in your research, please cite this repository.
+---
 
-```
-@misc{tensorflowmodelgarden2020,
-  author = {Hongkun Yu and Chen Chen and Xianzhi Du and Yeqing Li and
-            Abdullah Rashwan and Le Hou and Pengchong Jin and Fan Yang and
-            Frederick Liu and Jaeyoun Kim and Jing Li},
-  title = {{TensorFlow Model Garden}},
-  howpublished = {\url{https://github.com/tensorflow/models}},
-  year = {2020}
-}
-```
+## Technology Stack
+
+- **Programming Language:** Python  
+- **Libraries & Frameworks:**  
+  - OpenCV (image processing & video capture)  
+  - TensorFlow / Keras (deep learning model)  
+  - NumPy & Pandas (data handling)  
+  - Matplotlib / Seaborn (visualizations)  
+- **Model Type:** Convolutional Neural Network (CNN)  
+- **Data Formats:** Images (.jpg, .png), Video (.mp4, .avi)
+
+---
+
+## Usage
+
+**Run on Images:**  
+```bash
+python detect_mask_image.py --image path/to/image.jpg
